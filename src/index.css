@@ -18,6 +18,7 @@ button {
     border-radius: 50px;
     width: 100px;
     height: 25px;
+    cursor: pointer;
 }
 
 .Field {

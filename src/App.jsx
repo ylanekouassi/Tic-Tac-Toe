@@ -1,27 +1,10 @@
 import React from 'react'
+import Tictactoe from './Components/Tictactoe'
 
 const App = () => {
   return (
-    <div className='Container'>
-        <h1>Tic tac toe</h1>
-        <div className='Field'>
-            <div className='Line1'>
-                <div className="Boxes"></div>
-                <div className="Boxes"></div>
-                <div className="Boxes"></div>
-            </div>
-            <div className='Line2'>
-                <div className="Boxes"></div>
-                <div className="Boxes"></div>
-                <div className="Boxes"></div>
-            </div>
-            <div className='Line3'>
-                <div className="Boxes"></div>
-                <div className="Boxes"></div>
-                <div className="Boxes"></div>
-            </div>
-        </div>
-        <button>Reset</button>
+    <div>
+        <Tictactoe/>
     </div>
   )
 }

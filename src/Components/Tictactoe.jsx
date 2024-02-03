@@ -1,8 +1,13 @@
-import React, {useStae} from 'react'
+import React, {useState} from 'react'
 
 
 
 const Tictactoe = () => {
+
+const [data, setData] = useState(Array(9).fill(""));
+const [current, setCurrent]= useState("X");
+
+
   return (
     <div className='Container'>
     <h1>Tic tac toe</h1>
